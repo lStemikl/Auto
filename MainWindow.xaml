@@ -5,11 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Auto"
         mc:Ignorable="d"
-        Title="Пропуски для атотранспорта" Height="450" Width="600">
+        Title="Пропуски для атотранспорта" Height="500" Width="600">
     <Grid>
-        <Button Content="Выход" HorizontalAlignment="Left" Margin="496,309,0,0" VerticalAlignment="Top" Width="65" Height="30"/>
-        <Button Content="В список" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top"/>
-        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="242,132,0,0" VerticalAlignment="Top" Width="96" Click="Button_Click"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="488,291,0,0" VerticalAlignment="Top" Width="102" Height="30"/>
+        <Button Content="ПЕЧАТЬ выездные" HorizontalAlignment="Left" Margin="457,344,0,0" VerticalAlignment="Top" Width="133" Height="30"/>
+        <Button Content="ПЕЧАТЬ не выездные" HorizontalAlignment="Left" Margin="457,397,0,0" VerticalAlignment="Top" Width="133" Height="30"/>
+        <Button Content="Удалить всё" HorizontalAlignment="Left" Margin="457,444,0,0" VerticalAlignment="Top" Width="133" Height="30"/>
+        <Button Content="В список" HorizontalAlignment="Left" Margin="286,242,0,0" VerticalAlignment="Top" Width="67"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="257,131,0,0" VerticalAlignment="Top" Width="96" Click="Button_Click"/>
+
         <TextBox HorizontalAlignment="Left" Margin="214,87,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="152"/>
         <TextBox HorizontalAlignment="Left" Margin="35,87,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="152"/>
         <ComboBox HorizontalAlignment="Left" Margin="214,31,0,0" VerticalAlignment="Top" Width="152"/>
@@ -18,7 +22,7 @@
         <Label Content="Марка машины" HorizontalAlignment="Left" Margin="242,5,0,0" VerticalAlignment="Top"/>
         <Label Content="Предлагаемый штрих код" HorizontalAlignment="Left" Margin="214,61,0,0" VerticalAlignment="Top"/>
         <Label Content="Номер машины" HorizontalAlignment="Left" Margin="62,61,0,0" VerticalAlignment="Top"/>
-        
+
 
     </Grid>
 </Window>
